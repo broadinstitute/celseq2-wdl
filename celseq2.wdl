@@ -8,6 +8,7 @@ task celseq2 {
     Int threads=16
 
     Array[File] fastq_files
+    File barcode_index
     File annotations
     Array[File] bowtie2_indices 
 
