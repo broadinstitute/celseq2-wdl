@@ -1,0 +1,16 @@
+name: myenv
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - mamba
+  - python >= 3.7
+  - snakemake>=4.0.0
+  - pyyaml>=3.12, <4
+  - HTSeq>=0.9
+  - pytest>=3.2.2
+  - pandas>=0.20.0
+  - numpy>=1.12.0
+  - pytables>=3.4.2
+#  - genometools
+
