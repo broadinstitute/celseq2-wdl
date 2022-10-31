@@ -3,11 +3,8 @@ workflows:
    - name: "celseq2"
      subclass: WDL
      primaryDescriptorPath: /celseq2.wdl
-    #  testParameterFiles:
-    #  - /test_params/sceqtl_inputs.json
      filters: 
         branches: 
           - main
-          - dev
         tags: 
           - /.*/
