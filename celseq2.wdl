@@ -1,5 +1,9 @@
 version 1.0
 
+workflow call_celseq2 {
+  call celseq2
+}
+
 task celseq2 {
   input {
     File config
