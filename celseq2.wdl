@@ -24,7 +24,7 @@ task celseq2 {
   }
 
   command {
-    set-euo pipefail
+    set -euo pipefail
     conda activate myenv
     celseq2 --config-file ${config} \
       --experiment-table ${table} \
