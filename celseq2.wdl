@@ -25,7 +25,7 @@ task celseq2 {
 
   command {
     set -euo pipefail
-    conda init bash
+    source /opt/conda/etc/profile.d/conda.sh
     conda activate myenv
     celseq2 --config-file ${config} \
       --experiment-table ${table} \
