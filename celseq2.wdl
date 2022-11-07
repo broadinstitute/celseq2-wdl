@@ -16,7 +16,7 @@ task celseq2 {
     File annotations
     Array[File] bowtie2_indices 
 
-    String docker_image="us.gcr.io/landerlab-atacseq-200218/landerlab-celseq2:0.2"
+    String docker_image="us.gcr.io/landerlab-atacseq-200218/landerlab-celseq2:0.3"
     Int memory=64
     Int disk_space=64
     Int num_threads=16
